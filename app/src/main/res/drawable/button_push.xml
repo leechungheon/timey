@@ -1,0 +1,26 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 일반 상태 (기본 색상) -->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="12dp"
+                android:bottomRightRadius="12dp"
+                android:topLeftRadius="12dp"
+                android:topRightRadius="12dp" />
+            <solid android:color="#AA4059" /> <!-- 일반 상태의 색상 (#AA4059) -->
+        </shape>
+    </item>
+
+    <!-- 눌림 상태 (더 진한 색상) -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle"
+            android:padding="10dp">
+        <corners
+            android:bottomLeftRadius="12dp"
+            android:bottomRightRadius="12dp"
+            android:topLeftRadius="12dp"
+            android:topRightRadius="12dp"/>
+            <solid android:color="#880026" /> <!-- 눌림 상태의 색상 (더 진한 색상, 예: #880026) -->
+        </shape>
+    </item>
+</selector>
