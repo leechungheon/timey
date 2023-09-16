@@ -1,12 +1,12 @@
 package com.example.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
-import com.example.myapplication.Checklist;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,8 +25,12 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, Checklist.class);
                     startActivity(intent);//액티비티 이동
                 }
+
             });
 
+    }
+    public void onButton1Clicked(View view){
+        Toast.makeText(this,"버튼1이 눌렸어요.", Toast.LENGTH_LONG).show();
     }
 
 }

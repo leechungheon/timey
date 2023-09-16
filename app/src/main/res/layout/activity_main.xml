@@ -12,6 +12,7 @@
         android:scaleType="centerInside"
         android:src="@drawable/cbnu_logo"
         />
+
     <Button
         android:id="@+id/button1"
         android:layout_width="150dp"
@@ -20,6 +21,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/button_push"
+        android:onClick="onButton1Clicked"
         android:text="체크리스트" />
 
     <Button
