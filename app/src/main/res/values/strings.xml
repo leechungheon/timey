@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">timey</string>
+    <string name="checklist_hint">할 일을 입력하세요.</string>
     <string name="title_activity_checklist">Checklist</string>
 </resources>
